@@ -123,4 +123,11 @@ return [
         'store' => env('APP_MAINTENANCE_STORE', 'database'),
     ],
 
+    'apps' => [
+        [
+            'app_id' => 'my-app-id',
+            'allowed_origins' => ['replace with my fiveM sever IP'],
+        ]
+    ]
+
 ];
